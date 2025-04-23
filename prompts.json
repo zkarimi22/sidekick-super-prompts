@@ -1,0 +1,512 @@
+[
+  {
+    "prompt": "Write a compelling product description for [Product Name] highlighting [features/benefits].",
+    "description": "Asks the AI to create a persuasive product description emphasizing the product's key features and benefits, saving the store owner time and ensuring the description is attractive to customers.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Generate a product description for [product type] targeting [audience persona].",
+    "description": "Requests an AI-generated product description tailored to a specific target audience persona, ensuring the content resonates with that demographic.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Create three variations of a product description for [Product Name]: one formal, one playful, and one luxurious tone.",
+    "description": "Helps generate multiple product description versions in different tones (formal, playful, luxury), so the merchant can choose the one that best fits their brand voice.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Improve the following product description to make it more engaging: \"[...]\"",
+    "description": "Allows store owners to input an existing product description and have the AI enhance it for engagement and appeal, refining the content quality.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Write a concise product description (2 sentences) for [Product Name] for social media use.",
+    "description": "Generates a very short, catchy description of a product suitable for quick contexts like social media or teaser text, helping the merchant promote products in a few words.",
+    "tags": ["product-description", "social-media"]
+  },
+  {
+    "prompt": "Summarize the features of [Product] into a bulleted list for a quick overview.",
+    "description": "Asks for a bullet-point list of product features, giving customers a quick scannable overview of the product's main selling points, useful for highlights sections.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Write a persuasive product description focusing on the problem [Product] solves and its benefits.",
+    "description": "Generates a product description that emphasizes the customer's pain points and how the product addresses them, highlighting benefits to drive conversions.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Generate a product description for my new [material] [item category] (e.g., \"leather bag\").",
+    "description": "Quickly creates a complete description for a new product (like a leather bag), saving the merchant time on writing content from scratch for new items.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Translate my product description for [Product] into [Language].",
+    "description": "Uses the AI to translate an existing product description into another language (e.g., Spanish or French), helping reach a broader audience without manual translation.",
+    "tags": ["product-description"]
+  },
+  {
+    "prompt": "Write an SEO-friendly product description for [Product], including keywords like [keywords].",
+    "description": "Produces a product description optimized for search engines by incorporating specified keywords, helping improve the product page's visibility in search results.",
+    "tags": ["product-description", "seo"]
+  },
+  {
+    "prompt": "Identify keywords to include in a product description for [product or category].",
+    "description": "Asks the AI to suggest relevant keywords that should be included in a product description to improve SEO for that product or category.",
+    "tags": ["seo", "product-description"]
+  },
+  {
+    "prompt": "Suggest 5 long-tail keywords related to [product category] to target in my content.",
+    "description": "Provides a list of specific long-tail search terms relevant to the product category, which the store owner can target in product pages or blog content to attract niche traffic.",
+    "tags": ["seo"]
+  },
+  {
+    "prompt": "Write a meta description for [page or product] under 155 characters focusing on [keyword].",
+    "description": "Generates a succinct meta description for a webpage or product page, ensuring it includes a target keyword and stays within the recommended length for search engine snippets.",
+    "tags": ["seo"]
+  },
+  {
+    "prompt": "Suggest improvements to my homepage SEO.",
+    "description": "Analyzes or suggests changes to the store's homepage content and setup to improve search engine optimization, such as adding keywords, meta tags, or improving content structure.",
+    "tags": ["seo"]
+  },
+  {
+    "prompt": "Optimize the following title for SEO: \"[current title]\".",
+    "description": "Takes an existing page or product title and suggests a more SEO-friendly version, helping to improve search engine rankings with better keywords and structure.",
+    "tags": ["seo"]
+  },
+  {
+    "prompt": "Generate an SEO-friendly blog post title and outline about [topic].",
+    "description": "Creates a compelling blog post title and a structured outline for a given topic, ensuring it is optimized for SEO (with relevant keywords and headings) to drive organic traffic.",
+    "tags": ["seo", "marketing"]
+  },
+  {
+    "prompt": "Provide alt text suggestions for a product image of [Product], focusing on SEO keywords.",
+    "description": "Offers descriptive alt text for product images that includes SEO keywords, improving accessibility and helping the images appear in relevant image search results.",
+    "tags": ["seo"]
+  },
+  {
+    "prompt": "Analyze my product description for SEO and suggest additional keywords.",
+    "description": "Reviews an existing product description (when provided) and recommends extra keywords or tweaks to enhance its SEO, ensuring the content is fully optimized for search engines.",
+    "tags": ["seo", "product-description"]
+  },
+  {
+    "prompt": "Suggest internal linking opportunities on my site for SEO.",
+    "description": "Identifies places where the store owner can add internal links between pages or products on their site, which can improve SEO by creating a better linked site structure.",
+    "tags": ["seo"]
+  },
+  {
+    "prompt": "Brainstorm blog topics that could drive organic traffic for a [niche] store.",
+    "description": "Provides a list of blog post ideas relevant to the store's niche that are likely to attract organic search traffic, helping with content marketing and SEO strategy.",
+    "tags": ["seo", "marketing"]
+  },
+  {
+    "prompt": "Draft a response to a customer asking for a refund due to a late delivery.",
+    "description": "Creates a polite and empathetic customer support reply addressing a refund request caused by a shipping delay, helping maintain customer satisfaction while handling the issue professionally.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Write a polite email to a customer explaining a delay in their order shipment.",
+    "description": "Generates a courteous email update to inform a customer that their order will be delayed, including an apology and explanation, which helps in proactive customer communication.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Compose an apology message for a customer who received a defective product.",
+    "description": "Drafts a sincere apology and solution for a customer who got a faulty item, showing the store's commitment to quality and customer service, which can help turn a bad experience around.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Generate an instant answer for the FAQ \"What is your return policy?\" for my store.",
+    "description": "Creates a concise, ready-to-use answer to the common customer question about the store's return policy, which can be used in an FAQ page or automated chat response.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Create a template for answering \"Where is my order?\" including how to track orders.",
+    "description": "Provides a standard response format for customer inquiries about order status, including instructions on tracking their shipment, useful for quick replies via email or chat.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Draft a friendly follow-up email asking a customer to review their recent purchase.",
+    "description": "Writes a courteous follow-up email to a customer after a purchase, requesting them to leave a review, which helps generate social proof and engage customers post-purchase.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Provide a reply to a customer who left a negative review, addressing their concerns.",
+    "description": "Generates a thoughtful and professional response to a negative customer review, acknowledging the issues and offering a resolution, demonstrating good customer service in public.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Write a thank you email to send to customers after their first purchase.",
+    "description": "Creates a warm thank-you message to greet new customers after their first order, potentially including a discount for their next purchase, to build loyalty and show appreciation.",
+    "tags": ["customer-support", "email-marketing"]
+  },
+  {
+    "prompt": "Translate the following customer support message into [Language]: \"[...]\"",
+    "description": "Helps a merchant provide support in a customer's language by translating an English support response (or vice versa) into another language, improving communication with non-English-speaking customers.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Suggest a set of canned responses for common customer questions (e.g., shipping times, returns).",
+    "description": "Generates a list of pre-written answers for frequently asked questions (like inquiries on shipping timeframes or return procedures), enabling faster and consistent customer support replies.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "Write a series of Instagram posts for my [business type] promoting [products/values].",
+    "description": "Produces multiple Instagram post captions (and content ideas) for a business, allowing the store owner to maintain an active social media presence that highlights products or brand values.",
+    "tags": ["marketing", "social-media"]
+  },
+  {
+    "prompt": "Craft a marketing newsletter welcome email for [Store Name] including a discount code \"WELCOME10\".",
+    "description": "Drafts a welcome email for new subscribers that introduces the brand and includes a welcome discount, helping to engage new potential customers through email marketing.",
+    "tags": ["email-marketing"]
+  },
+  {
+    "prompt": "Draft a Facebook ad copy and headline for [Product] targeting [audience].",
+    "description": "Creates an attention-grabbing headline and ad text for a Facebook advertisement, tailored to a specific audience for the product, aiding in effective social media advertising.",
+    "tags": ["marketing", "social-media"]
+  },
+  {
+    "prompt": "Brainstorm 5 promotional ideas for the upcoming Black Friday sale for my store.",
+    "description": "Provides several creative ideas for running promotions during Black Friday (like discounts, bundles, flash sales), helping the merchant plan an effective holiday marketing strategy.",
+    "tags": ["marketing"]
+  },
+  {
+    "prompt": "Write a 1000-word blog post about [topic] with the focus keyword \"[keyword]\".",
+    "description": "Generates a lengthy, SEO-optimized blog article on a given topic with a specified focus keyword, which helps drive content marketing and improve search engine rankings with in-depth content.",
+    "tags": ["marketing", "seo"]
+  },
+  {
+    "prompt": "Suggest 5 ideas for TikTok videos to showcase [Product] or [product category].",
+    "description": "Provides creative concepts for short TikTok videos highlighting a product or category, helping the store owner leverage viral social media content to attract younger audiences.",
+    "tags": ["marketing", "social-media"]
+  },
+  {
+    "prompt": "Compose a tweet announcing our new product launch [Product Name] with a playful tone.",
+    "description": "Writes a short, engaging Twitter post to announce a new product, using a fun tone, making it easier for the merchant to share updates on social media with personality.",
+    "tags": ["marketing", "social-media"]
+  },
+  {
+    "prompt": "Write a press release for the launch of [Product] with key details and a quote from the founder.",
+    "description": "Creates a formal press release announcement for a new product launch, including important details and a founder's quote, which the merchant can use to distribute to media or on their blog.",
+    "tags": ["marketing"]
+  },
+  {
+    "prompt": "Generate 5 catchy email subject lines for a [holiday] sale.",
+    "description": "Provides several attention-grabbing subject lines for an upcoming holiday sale email campaign, helping improve open rates and the effectiveness of email marketing efforts.",
+    "tags": ["email-marketing"]
+  },
+  {
+    "prompt": "Brainstorm tagline ideas for my brand selling [product category].",
+    "description": "Suggests memorable and catchy tagline or slogan options for a brand, capturing the essence of the business and products to strengthen brand identity in marketing materials.",
+    "tags": ["marketing"]
+  },
+  {
+    "prompt": "Show me today's sales.",
+    "description": "Instructs the AI assistant to provide the total sales for the current day, giving the store owner a quick snapshot of daily performance without manually checking the dashboard.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "View my top-selling products.",
+    "description": "Asks for a report or list of the best-selling products (by units or revenue), so the store owner can quickly see which items are performing the best overall.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "Show me my website traffic for the past week.",
+    "description": "Requests the number of visitors or site traffic data for the last 7 days, providing insight into trends in site visits and helping to gauge marketing efforts or seasonality.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "What is my conversion rate this month?",
+    "description": "Queries the store's conversion rate (percentage of visitors who made a purchase) for the current month, so the merchant can monitor this key performance indicator over time.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "How does this week's sales compare to last week's?",
+    "description": "Asks for a comparison between this week's and last week's sales figures, allowing the store owner to quickly see growth or decline in performance week-over-week.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "Which product has the highest sales growth this month?",
+    "description": "Requests identification of the product that saw the largest increase in sales in the current month compared to the previous period, highlighting emerging best-sellers.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "What was my total revenue last month and how does it compare to the previous month?",
+    "description": "Asks for the total sales figures from last month and a comparison to the month before it, giving context on whether revenue is growing or declining.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "Who are my top 5 customers by total spend?",
+    "description": "Pulls a list of the customers who have spent the most in the store, useful for identifying VIPs for loyalty programs or special outreach.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "What is the average order value in the last 30 days?",
+    "description": "Calculates the average amount of money spent per order in the past month, an important metric for understanding customer purchasing behavior and evaluating upselling strategies.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "Identify any sales trends or anomalies in the last quarter.",
+    "description": "Analyzes sales data from the last three months to point out notable patterns or outliers (e.g., unexpected spikes or drops), helping the merchant spot seasonal trends or issues.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "Update inventory for [Product Name].",
+    "description": "Initiates a task to adjust the stock quantity of a specific product, streamlining inventory updates by letting the AI assistant handle the change or guide the process.",
+    "tags": ["inventory-management", "store-operations"]
+  },
+  {
+    "prompt": "Which products are low in stock?",
+    "description": "Asks for a list of products that have low inventory levels, helping the store owner quickly identify items that might need restocking soon.",
+    "tags": ["inventory-management"]
+  },
+  {
+    "prompt": "List products with fewer than 5 items in stock.",
+    "description": "Requests a specific report of all products that have an inventory count below 5, enabling the merchant to pinpoint critically low-stock items at a glance.",
+    "tags": ["inventory-management"]
+  },
+  {
+    "prompt": "Increase the stock of [Product] by 50 units.",
+    "description": "Instructs the assistant to add a certain number of units to the current inventory count of a product (for example, after new stock arrives), simplifying the restocking process.",
+    "tags": ["inventory-management"]
+  },
+  {
+    "prompt": "Set the stock of [Product] to [number].",
+    "description": "Tells the AI to update a product's inventory to a specific number, which is useful for correcting stock levels or setting initial stock for a new product without manual entry.",
+    "tags": ["inventory-management"]
+  },
+  {
+    "prompt": "Which products went out of stock in the last week?",
+    "description": "Queries for any products that became sold out in the past week, so the store owner knows which items have recently run out and might need reordering or removal from marketing.",
+    "tags": ["inventory-management"]
+  },
+  {
+    "prompt": "When should I reorder [Product]?",
+    "description": "Asks for advice or analysis on the optimal time to restock a product, likely using its sales velocity or inventory turnover data to suggest when to place the next order to avoid stockouts.",
+    "tags": ["inventory-management", "analytics"]
+  },
+  {
+    "prompt": "List the products that haven't sold in the last 90 days.",
+    "description": "Requests a list of items with no sales in the past three months, identifying slow-moving or dead stock that the merchant might need to discount or reevaluate.",
+    "tags": ["inventory-management", "analytics"]
+  },
+  {
+    "prompt": "Check current stock levels for [Product Name].",
+    "description": "Simply asks for the current inventory quantity of a particular product, providing an instant update on how many units are available for sale.",
+    "tags": ["inventory-management"]
+  },
+  {
+    "prompt": "Which variant of [Product] is selling the fastest?",
+    "description": "Analyzes sales data for the variants of a product (e.g., different sizes or colors) to determine which variant has the highest sales rate, informing inventory and marketing focus.",
+    "tags": ["inventory-management", "analytics"]
+  },
+  {
+    "prompt": "How can I create a promotional discount for a new collection?",
+    "description": "Asks for guidance or automated help in setting up a promotion (like a discount code or sale) for a specific product collection, simplifying the process of running targeted sales.",
+    "tags": ["store-operations", "marketing"]
+  },
+  {
+    "prompt": "Can you help me adjust my shipping settings?",
+    "description": "Requests assistance in modifying the store's shipping settings (rates, zones, etc.), likely guiding the merchant through the steps to update shipping options or doing it with confirmation.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Set up a 20% discount for all products in the Spring Collection.",
+    "description": "Instructs the AI assistant to create a 20% off promotion for every item tagged in the Spring Collection, automating a seasonal sale setup in just one command.",
+    "tags": ["store-operations", "marketing"]
+  },
+  {
+    "prompt": "Create a new product category for summer essentials.",
+    "description": "Asks the assistant to form a new collection or category named 'Summer Essentials', organizing relevant products under it without manually navigating through the admin.",
+    "tags": ["store-operations", "inventory-management"]
+  },
+  {
+    "prompt": "How do I set up free shipping for orders over $50?",
+    "description": "Queries the process of offering free shipping on orders above a certain amount, prompting the assistant to either directly configure the condition or provide step-by-step instructions.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "How can I generate more sales for all my products?",
+    "description": "Seeks strategic advice or a plan from the AI on boosting overall sales, resulting in suggestions such as marketing tactics, site optimizations, or promotions that the store owner can implement.",
+    "tags": ["marketing", "analytics"]
+  },
+  {
+    "prompt": "Create a 15% discount for returning customers.",
+    "description": "Instructs the assistant to set up a special discount (15% off) exclusive to repeat customers, helping to encourage loyalty and repeat purchases through targeted incentives.",
+    "tags": ["store-operations", "marketing"]
+  },
+  {
+    "prompt": "Find product \"[Product Name]\".",
+    "description": "Uses the assistant to quickly search the store's product catalog for a specific product by name, saving time compared to manually searching through the product list.",
+    "tags": ["store-operations", "inventory-management"]
+  },
+  {
+    "prompt": "Create a new product called \"[Product Name]\" priced at $X.",
+    "description": "Tells the assistant to initiate the creation of a new product with a given name and price (and possibly prompt for more details), speeding up the process of adding products to the store.",
+    "tags": ["store-operations", "inventory-management"]
+  },
+  {
+    "prompt": "View recent orders.",
+    "description": "Commands the assistant to display or navigate to a list of the most recent orders, allowing the store owner to quickly review incoming orders without manually clicking through the admin menu.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Go to settings.",
+    "description": "A quick command to have the assistant navigate directly to the store's settings page in the admin, saving a few clicks and time when a merchant needs to adjust settings.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Open the theme editor.",
+    "description": "Tells the assistant to directly open the theme customization interface, enabling the merchant to jump into editing their storefront appearance without searching through the admin menu.",
+    "tags": ["store-operations", "theme-customization"]
+  },
+  {
+    "prompt": "View my analytics.",
+    "description": "Requests the assistant to open or summarize the store's analytics dashboard, providing a quick overview of key metrics like sales, traffic, and conversion without manual navigation.",
+    "tags": ["store-operations", "analytics"]
+  },
+  {
+    "prompt": "Find order #[order_number].",
+    "description": "Asks the assistant to locate a specific order by its number, quickly pulling up the order details so the store owner can check its status or contents.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "View all orders.",
+    "description": "Instructs the assistant to display the complete list of orders, which is useful for an overview or bulk actions, without the owner needing to click through the orders section manually.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "View unfulfilled orders.",
+    "description": "Requests to see only the orders that have not been fulfilled yet, helping the merchant quickly identify which orders still need to be processed or shipped.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "What is Shopify Markets?",
+    "description": "Asks the assistant to explain the Shopify Markets feature, which provides info on Shopify's tool for managing international markets (like currencies and domains), helping the owner understand platform features.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "How do I set up shipping zones?",
+    "description": "Requests guidance on configuring shipping zones (regions and rates) in Shopify, likely yielding step-by-step instructions or direct assistance, making it easier to set up location-based shipping rules.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Tell me about Shopify Email.",
+    "description": "Prompts the assistant to describe what Shopify Email is and how it works as the platform's email marketing tool, giving the merchant insight into built-in marketing features they can use.",
+    "tags": ["store-operations", "email-marketing"]
+  },
+  {
+    "prompt": "Change the button color to blue on my website.",
+    "description": "Instructs the assistant to modify the theme settings so that the store's buttons are blue, demonstrating how Sidekick can handle simple design customizations via natural language.",
+    "tags": ["store-operations", "theme-customization"]
+  },
+  {
+    "prompt": "How do I issue a refund for order #[order_number]?",
+    "description": "Asks for help with processing a refund for a specific order, prompting the assistant to guide the store owner through the refund steps or initiate the refund process (with confirmation).",
+    "tags": ["store-operations", "customer-support"]
+  },
+  {
+    "prompt": "Create a customer segment for all customers who purchased [Product].",
+    "description": "Tells the assistant to generate a customer segment comprising everyone who has bought a specific product, which can be used for targeted marketing like sending a related promotion or update.",
+    "tags": ["analytics", "marketing"]
+  },
+  {
+    "prompt": "Create a customer segment for customers who spent over $500 in the last year.",
+    "description": "Instructs the assistant to build a segment of high-value customers (spending above a threshold in a timeframe), useful for loyalty rewards or special marketing campaigns toward top spenders.",
+    "tags": ["analytics", "marketing"]
+  },
+  {
+    "prompt": "Duplicate my current theme as a backup.",
+    "description": "Asks the assistant to make a copy of the live theme, providing a backup version so that the merchant can experiment with design changes safely or save the current state.",
+    "tags": ["store-operations", "theme-customization"]
+  },
+  {
+    "prompt": "Add a new payment method (PayPal) to my store.",
+    "description": "Requests help in enabling or adding a new payment provider like PayPal, guiding the merchant through connecting their account or toggling the option on, to expand payment options for customers.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Add a new staff account with the name [Name].",
+    "description": "Instructs the assistant to create a new staff login for a person (with the given name), streamlining the process of adding team members to the store with appropriate permissions.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Generate a privacy policy page for my store.",
+    "description": "Uses the AI to draft a comprehensive privacy policy tailored to the store, helping the merchant quickly get a legally appropriate policy page without writing it from scratch.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Write a return policy for my store selling [product category].",
+    "description": "Asks the AI to create a clear return policy document customized to the type of products sold, ensuring customers know the rules for returns and exchanges and saving the owner time drafting it.",
+    "tags": ["store-operations"]
+  },
+  {
+    "prompt": "Summarize the last 7 days of store performance in a short report.",
+    "description": "Requests a brief summary of key performance metrics (sales, orders, traffic, etc.) from the past week, providing the merchant with an easy-to-digest report of how the store did recently.",
+    "tags": ["analytics", "store-operations"]
+  },
+  {
+    "prompt": "Draft a Black Friday sale announcement email highlighting key deals and urgency.",
+    "description": "Generates the content for a promotional email about a Black Friday sale, emphasizing the major deals and creating a sense of urgency to encourage customers to shop during the sale.",
+    "tags": ["email-marketing"]
+  },
+  {
+    "prompt": "Compose a back-in-stock notification email for [Product] to alert interested customers.",
+    "description": "Creates an email template to inform customers that a previously out-of-stock product is available again, helping the store quickly reach out to those who signed up for restock alerts.",
+    "tags": ["email-marketing"]
+  },
+  {
+    "prompt": "Write an email to re-engage past customers who haven't purchased in 6 months, offering an incentive.",
+    "description": "Drafts a win-back email targeted at lapsed customers, including a friendly message and perhaps a special discount to entice them to return and make a purchase.",
+    "tags": ["email-marketing"]
+  },
+  {
+    "prompt": "Change the font of my website's headings to [Font Name].",
+    "description": "Instructs the AI assistant to alter the store's theme settings so that all heading text uses a specified font, making it easy to update typography without digging through theme code.",
+    "tags": ["store-operations", "theme-customization"]
+  },
+  {
+    "prompt": "Add a testimonials section to my homepage.",
+    "description": "Requests the assistant to insert or enable a section on the homepage for customer testimonials or reviews, helping to showcase social proof on the storefront with minimal effort.",
+    "tags": ["store-operations", "theme-customization"]
+  },
+  {
+    "prompt": "Which products are often purchased together by customers?",
+    "description": "Asks for an analysis of purchase history to identify products that are frequently bought in the same order, providing insights that can be used for cross-selling or bundle promotions.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "What percentage of my orders are from repeat customers?",
+    "description": "Inquires about the proportion of orders placed by returning customers versus new customers, giving the merchant a sense of customer loyalty and repeat business rate.",
+    "tags": ["analytics"]
+  },
+  {
+    "prompt": "Suggest an instant answer for \"Do you ship internationally?\" for my Shopify Inbox.",
+    "description": "Produces a ready-made response for the common customer question regarding international shipping, which can be added to Shopify Inbox's instant answers to quickly address customers.",
+    "tags": ["customer-support"]
+  },
+  {
+    "prompt": "How can I reduce cart abandonment on my store?",
+    "description": "Seeks advice on lowering the cart abandonment rate, prompting the AI to suggest strategies like improving checkout, sending cart recovery emails, or offering incentives, to help recover potentially lost sales.",
+    "tags": ["marketing", "analytics"]
+  },
+  {
+    "prompt": "How can I improve my website's loading speed?",
+    "description": "Asks for tips to make the online store load faster, expecting guidance on optimizing images, apps, or theme code, since a faster site improves user experience and SEO.",
+    "tags": ["seo", "store-operations"]
+  },
+  {
+    "prompt": "Suggest a loyalty program or rewards strategy for my store to increase repeat business.",
+    "description": "Requests ideas for implementing a customer loyalty or rewards program, such as point systems or VIP tiers, to help boost customer retention and repeat purchases.",
+    "tags": ["marketing"]
+  },
+  {
+    "prompt": "Analyze this collection of customer reviews and identify common themes or trends.",
+    "description": "Prompts the AI to review a set of customer feedback or reviews (when provided) and summarize the main sentiments and recurring points, helping the merchant understand overall customer satisfaction and areas for improvement.",
+    "tags": ["analytics", "customer-support"]
+  },
+  {
+    "prompt": "How do I connect my Shopify store to Facebook and Instagram shopping?",
+    "description": "Asks for guidance on integrating the store with Facebook/Instagram Shop features, leading the assistant to provide steps or tips on setting up the Facebook sales channel and syncing products for social selling.",
+    "tags": ["store-operations", "marketing"]
+  }
+]

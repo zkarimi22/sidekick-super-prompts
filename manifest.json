@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Super Prompts for Sidekick",
+  "version": "1.0",
+  "description": "Injects the top prompts for Shopify's Sidekick directly in the Shopify admin panel. Open source, local only, zero tracking.",
+  "permissions": [
+    "scripting",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://admin.shopify.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://admin.shopify.com/*"],
+      "js": [
+        "content.js"
+        ],
+      "css": [
+        "styles.css"
+        ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["prompts.json"],
+      "matches": ["*://admin.shopify.com/*"]
+    }
+  ]
+} 

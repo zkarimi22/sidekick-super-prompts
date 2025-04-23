@@ -5,7 +5,8 @@
   "description": "Injects the top prompts for Shopify's Sidekick directly in the Shopify admin panel. Open source, local only, zero tracking.",
   "permissions": [
     "scripting",
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "host_permissions": [
     "*://admin.shopify.com/*"

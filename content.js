@@ -7,6 +7,7 @@ let tagSelector = null;
 let pillContainer = null;  
 let closeButton = null;  
 let outerContainer = null;  
+let tagCounts = {}; // Add variable to store tag counts
 
 // --- Core Functions ---
 
@@ -19,10 +20,34 @@ async function fetchPrompts() {
     }
     allPrompts = await response.json();
     console.log("Recipes Extension: Prompts loaded:", allPrompts);
+    // Load tag counts after prompts are loaded
+    await loadTagCounts();
     return allPrompts;
   } catch (error) {
     console.error("Recipes Extension: Failed to fetch prompts:", error);
     return [];  
+  }
+}
+
+// Add function to load counts from storage
+async function loadTagCounts() {
+  try {
+    const data = await chrome.storage.local.get(['tagCounts']);
+    tagCounts = data.tagCounts || {};
+    console.log("Recipes Extension: Loaded tag counts:", tagCounts);
+  } catch (error) {
+    console.error("Recipes Extension: Error loading tag counts:", error);
+    tagCounts = {}; // Default to empty if error
+  }
+}
+
+// Add function to save counts to storage
+async function saveTagCounts() {
+  try {
+    await chrome.storage.local.set({ tagCounts });
+    console.log("Recipes Extension: Saved tag counts:", tagCounts);
+  } catch (error) {
+    console.error("Recipes Extension: Error saving tag counts:", error);
   }
 }
 
@@ -35,7 +60,12 @@ function getUniqueTags(prompts) {
     }
   });
    
-  return [...tags].sort();
+  // Sort tags based on counts before returning
+  return [...tags].sort((a, b) => {
+    const countA = tagCounts[a] || 0;
+    const countB = tagCounts[b] || 0;
+    return countB - countA; // Sort descending by count
+  });
 }
 
 function createUI(tags) {
@@ -67,7 +97,9 @@ function createUI(tags) {
   tags.forEach(tag => {
     const option = document.createElement('option');
     option.value = tag;
-    option.textContent = tag;
+    // would adding a count be valuable? 
+    const count = tagCounts[tag] || 0;
+    option.textContent = count > 0 ? `${tag}` : tag; // should i show count? maybe not..
     tagSelector.appendChild(option);
   });
   outerContainer.appendChild(tagSelector);
@@ -169,6 +201,12 @@ function handleTagSelection(event) {
          
         pillContainer.classList.add('hidden');
         closeButton.classList.add('hidden');
+    }
+
+    // Increment count for the selected tag
+    if (selectedTag) {
+        tagCounts[selectedTag] = (tagCounts[selectedTag] || 0) + 1;
+        saveTagCounts();  
     }
 }
 
@@ -278,14 +316,16 @@ const observer = new MutationObserver((mutationsList, observerInstance) => {
             console.log("Recipes Extension: Sidekick elements found!");
             observerInstance.disconnect();
             if (!document.getElementById('recipes-container')) {
+                 // Fetch prompts (which now also loads counts)
                  fetchPrompts().then(prompts => {
                     if (prompts && prompts.length > 0) {
+                        // Get tags (which are now sorted by count)
                         const uniqueTags = getUniqueTags(prompts);
-                        createUI(uniqueTags);
+                        createUI(uniqueTags); // Create UI with sorted tags
                     } else {
                         console.log("Recipes Extension: No prompts loaded or error fetching, UI not created.");
                     }
-                });
+                }).catch(err => console.error("Recipes Extension: Error during init fetch/UI creation:", err)); // Add catch block
             } else {
                  
                  if (sidekickTextarea && !sidekickTextarea.listenerAttached) {  
@@ -317,14 +357,16 @@ function startFallbackCheck() {
             clearInterval(checkInterval);
             observer.disconnect();
              if (!document.getElementById('recipes-container')) {
+                 // Fetch prompts (which now also loads counts)
                  fetchPrompts().then(prompts => {
                     if (prompts && prompts.length > 0) {
+                        // Get tags (which are now sorted by count)
                         const uniqueTags = getUniqueTags(prompts);
-                        createUI(uniqueTags);
+                        createUI(uniqueTags); // Create UI with sorted tags
                     } else {
                         console.log("Recipes Extension: No prompts loaded or error fetching (fallback), UI not created.");
                     }
-                });
+                 }).catch(err => console.error("Recipes Extension: Error during fallback fetch/UI creation:", err)); // Add catch block
             } else {
                  
                  if (sidekickTextarea && !sidekickTextarea.listenerAttached) {  
